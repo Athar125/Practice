@@ -60,3 +60,20 @@ console.log("after inquirer")
 // enum COLORS {RED, GREEN, BLUE};
 // const whatColor:number = COLORS.GREEN;
 // console.log("whatColor", whatColor);
+// generic
+// function swap(arr:number[]):number[]{
+//  return [arr[1], arr[0]]
+// }
+// const result:number[] = swap([10, 20])
+// console.log("result", result)
+/*
+function swap<T>(arr:T[]):T[]{
+    return [arr[1], arr[0]]
+}
+
+const result:number[] = swap<number>([10, 20])
+const result2:string[] = swap<string>(["ATHAR", "AZHAR"])
+const result3:boolean[] = swap<boolean>([true, false])
+
+console.log("result", result2, result, result3)
+*/ 
