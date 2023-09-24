@@ -59,3 +59,10 @@ console.log("after inquirer")
 // var num2 = 20;
 // var sum:number = num1 * num2;
 // console.log("sum", sum);
+
+
+// 24/9/2023
+// ##enum
+// enum COLORS {RED, GREEN, BLUE};
+// const whatColor:number = COLORS.GREEN;
+// console.log("whatColor", whatColor);

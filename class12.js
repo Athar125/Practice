@@ -27,28 +27,36 @@ else if (result.num>80) {
 
 passingGrades()
 */
+export {};
 // 1. syntax error
 // letc a:number = 10;
 // ify ()
 // fora
-// 2. runtime errors
-import inquirer from "inquirer";
-try {
-    const output = await inquirer.prompt([{
-            type: "number",
-            name: "num",
-            message: "enter num 1",
-        }]);
+// 2. runtime errors   risky code
+/*
+import inquirer from "inquirer"
+
+try{
+    const output = await inquirer.prompt ([{
+        type : "number",
+        name : "num",
+        message : "enter num 1",
+    }])
+} catch (error ) {
+    console.log("error", error)
 }
-catch (error) {
-    console.log("error", error);
-}
-finally {
+finally{
     console.log("finally");
 }
-console.log("after inquirer");
+console.log("after inquirer")
+*/
 // 3. logical errors   human error
 // var num1 = 10;
 // var num2 = 20;
 // var sum:number = num1 * num2;
 // console.log("sum", sum);
+// 24/9/2023
+// ##enum
+// enum COLORS {RED, GREEN, BLUE};
+// const whatColor:number = COLORS.GREEN;
+// console.log("whatColor", whatColor);
