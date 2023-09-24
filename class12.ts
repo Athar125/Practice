@@ -86,4 +86,12 @@ const result2:string[] = swap<string>(["ATHAR", "AZHAR"])
 const result3:boolean[] = swap<boolean>([true, false])
 
 console.log("result", result2, result, result3)
+
+
+// interface
+
+interface StudentTypeC {
+    rollNo:number,
+    uni:string,
+}
 */
