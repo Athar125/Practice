@@ -27,6 +27,7 @@ else if (result.num>80) {
 
 passingGrades()
 */
+export {};
 // 1. syntax error
 // letc a:number = 10;
 // ify ()
@@ -105,19 +106,21 @@ console.log(add("Athar", "Sahib"));
 console.log(add(23, "98"));
 console.log(add(23 , 22));
 console.log(true, "65");
-*/
+
 // procedural oriented progarmmin | functional programming
 // OOPs
-class car {
-    company = "";
-    modelYear = 0;
-    color = "";
-    constructor(_company, _modelYear, _color) {
+
+class car{
+    company:string = "";
+    modelYear:number = 0;
+    color:string = "";
+
+    constructor(_company:string, _modelYear:number, _color:string){
         this.company = _company;
         this.color = _color;
         this.modelYear = _modelYear;
     }
-    start() {
+    start(){
         console.log("engine starting");
     }
 }
@@ -126,8 +129,10 @@ const car1 = new car("honda", 2023, "Black");
 //car1.company = "RANGE ROVER";
 //car1.modelYear = 2024;
 console.log(car1);
-const car2 = new car("BMW", 2022, "Gray");
+const car2 = new car("BMW", 2022, "Gray", );
 console.log(car2);
 const car3 = new car("Toyota", 2020, "Brown");
 console.log(car3);
-export {};
+*/
+// not supported oops in javascript.
+// class is a passive form.

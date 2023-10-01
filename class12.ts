@@ -146,6 +146,9 @@ console.log(car2);
 const car3 = new car("Toyota", 2020, "Brown");
 console.log(car3);
 */
+// not supported oops in javascript.
+// class is a passive form.
+
 
 
 
