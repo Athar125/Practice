@@ -27,7 +27,6 @@ else if (result.num>80) {
 
 passingGrades()
 */
-export {};
 // 1. syntax error
 // letc a:number = 10;
 // ify ()
@@ -84,4 +83,51 @@ interface StudentTypeC {
     rollNo:number,
     uni:string,
 }
-*/ 
+*/
+//  01/10/2023
+/*
+function printFullName(firstName:string, lastName:string){
+    if (lastName){
+    console.log(`${firstName} ${lastName}`);
+} else {
+    console.log(firstName);
+}
+}
+printFullName("Athar", "Atta");
+
+function add(a1:number,a2:number):number;
+function add(a1:number, a2:string):string;
+function add(a1:string, a2:string):number;
+function add(a1:any, a2:any):any{
+    return a1 + a2
+}
+console.log(add("Athar", "Sahib"));
+console.log(add(23, "98"));
+console.log(add(23 , 22));
+console.log(true, "65");
+*/
+// procedural oriented progarmmin | functional programming
+// OOPs
+class car {
+    company = "";
+    modelYear = 0;
+    color = "";
+    constructor(_company, _modelYear, _color) {
+        this.company = _company;
+        this.color = _color;
+        this.modelYear = _modelYear;
+    }
+    start() {
+        console.log("engine starting");
+    }
+}
+const car1 = new car("honda", 2023, "Black");
+// car1.color = "Silver";
+//car1.company = "RANGE ROVER";
+//car1.modelYear = 2024;
+console.log(car1);
+const car2 = new car("BMW", 2022, "Gray");
+console.log(car2);
+const car3 = new car("Toyota", 2020, "Brown");
+console.log(car3);
+export {};
