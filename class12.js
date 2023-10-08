@@ -27,7 +27,6 @@ else if (result.num>80) {
 
 passingGrades()
 */
-export {};
 // 1. syntax error
 // letc a:number = 10;
 // ify ()
@@ -136,3 +135,19 @@ console.log(car3);
 */
 // not supported oops in javascript.
 // class is a passive form.
+// 08/10/2023
+// Inheritance
+class A {
+    title = "DNA";
+    display() {
+        console.log("title", this.title);
+    }
+}
+class B extends A {
+    description = "Any description";
+}
+const b = new B();
+b.display();
+const a = new A();
+a.display();
+export {};

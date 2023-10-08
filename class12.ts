@@ -150,7 +150,21 @@ console.log(car3);
 // class is a passive form.
 
 
+// 08/10/2023
+// Inheritance
+class A{
+    title:string = "DNA";
+    display(){
+        console.log("title", this.title);
+        
+    }
+}
+class B extends A{
+    description:string = "Any description";
+}
+const b = new B();
+b.display();
 
-
-
+const a = new A();
+a.display();
 
