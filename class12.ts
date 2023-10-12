@@ -152,19 +152,60 @@ console.log(car3);
 
 // 08/10/2023
 // Inheritance
-class A{
-    title:string = "DNA";
-    display(){
-        console.log("title", this.title);
+// class A{
+//     title:string = "DNA";
+//     display(){
+//         console.log("title", this.title);
         
-    }
-}
-class B extends A{
-    description:string = "Any description";
-}
-const b = new B();
-b.display();
+//     }
+// }
+// class B extends A{
+//     description:string = "Any description";
+// }
+// const b = new B();
+// b.display();
 
-const a = new A();
-a.display();
+// const a = new A();
+// a.display();
 
+// class shape{
+//     width:number = 0;
+//     height:number = 0;
+//     getArea(){
+//         return this.width * this.height
+//     }
+// }
+// class cube extends shape{
+//      width:number = 0;
+//     height:number = 0;
+//     thirdSide:number = 0;
+//     getArea(){
+//         return this.width * this.height * this.thirdSide
+//     }
+// }
+// const Cube = new cube();
+// cube.getArea()
+
+                                   // Polymorphism
+
+// interface shape{
+//     getArea():void
+// }
+// class Circle implements shape{
+//     constructor (public radius:number){}
+//     getArea():number{
+//         return Math.PI * this.radius ** 2
+//     }
+// }
+// class ReactAngle implements shape{
+// constructor (public width:number, public height:number ){}
+// getArea():number{
+//     return this.width * this.height
+// }
+// }
+
+// const shapes:shape[] = [new Circle(10), new ReactAngle(7, 12)]
+
+// shapes.forEach((shape)=>{
+//     console.log(shape)
+// })
