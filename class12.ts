@@ -209,3 +209,67 @@ console.log(car3);
 // shapes.forEach((shape)=>{
 //     console.log(shape)
 // })
+
+                         // encapsulation
+             // Public, Private, Protected 
+
+                           // Abstraction
+
+// interface shape{
+//      getArea():number
+// }
+// abstract class AShape{
+//     width:number = 0;
+//     height:number = 0;
+//     constructor(width:number , height:number){
+//     this.width = width;
+//     this.height = height;
+// }
+//     getArea(){
+//         return this.width * this.height
+//     }
+//   abstract display():void
+// }
+// class Circle extends AShape{
+//         constructor (public radius:number){
+//             super(10 , 20)
+//         }
+//         getArea():number{
+//             return Math.PI * this.radius ** 2
+//         }
+
+//     }
+//     class ReactAngle extends AShape{
+//     constructor (public width:number, public height:number ){
+//         super(20 , 30)
+//     }
+//     getArea():number{
+//         return this.width * this.height
+//     }
+//     }
+    
+//     const shapes:shape[] = [new Circle(10), new ReactAngle(7, 12)]
+    
+//     shapes.forEach((shape)=>{
+//         console.log(shape)
+//     })
+
+// class A{
+//     color:string = "Red"
+//     setColor(color:string){
+//         this.color = color
+//     }
+// }
+// const obj1 = new A();
+// obj1.setColor("Blue")
+// console.log("obj1", obj1.color);
+
+// const obj2 = new A();
+// console.log("obj2", obj2.color);
+
+// class A{
+//     static color:string = "Red"
+//     setColor(color:string){
+//         this.color = color
+//     }
+// }
